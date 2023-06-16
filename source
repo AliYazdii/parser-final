@@ -1,0 +1,25 @@
+int main(){
+        int number1 ;
+        write("enter number2: int", number2);
+        read(int, number2);
+        write("this is number2 = int", number2);
+
+        if (number1 > number2) so {
+            temp = number1;
+            number1 = number2;
+            number2 = temp;
+        }
+
+        if (number1 < 0) so {
+            number1 = -number1;
+        }
+
+        until(start <= number2){
+            fact = start;
+            start = start + 1;
+        }
+
+        write("this is fact of number2 = int", fact);
+        write("enter 0 or 1:");
+        read(int, input);
+}
