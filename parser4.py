@@ -121,6 +121,7 @@ def main():
     input_code = read_input_file("source")
     first_follow = load_first_follow()
     tokens = tokenize(input_code)
+    print(tokens)
     parser(tokens, first_follow)
 
 
